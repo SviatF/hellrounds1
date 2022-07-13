@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'HarlowSolidItalic';
+	src: url('../public/fonts/HARLOWSI/HARLOWSI.eot');
+	src: local('☺'), url('../public/fonts/HARLOWSI/HARLOWSI.woff') format('woff'),
+     url('../public/fonts/HARLOWSI/HARLOWSI.ttf') format('truetype'),
+      url('../public/fonts/HARLOWSI/HARLOWSI.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monotype Corsiva';
+    src: url('../public/fonts/MTCORSIVA/Monotype-Corsiva.eot');
+    src: url('../public/fonts/MTCORSIVA/Monotype-Corsiva.eot') format('embedded-opentype'),
+        url('../public/fonts/MTCORSIVA/Monotype-Corsiva.woff2') format('woff2'),
+        url('../public/fonts/MTCORSIVA/Monotype-Corsiva.woff') format('woff'),
+        url('../public/fonts/MTCORSIVA/Monotype-Corsiva.ttf') format('truetype'),
+        url('../public/fonts/MTCORSIVA/Monotype-Corsiva.svg#MonotypeCorsiva') format('svg');
+    font-weight: normal;
+    font-style: italic;
+   
+  }
+.nav{
+    font-family: 'Monotype Corsiva';
+    display: block;
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color: black;
+    color:#fff;
+    padding: 30px;
+}
+.mainNv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+.nvlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23.5px;
+    opacity: 90%;
+}
+.nvlistLink{
+    margin: 5px;
+    
+}
+
+.logonv{
+    position: absolute;
+    top:55%;
+    left:-70%;
+    white-space: nowrap;
+    font-size: 50px;
+    transform: rotate(-90deg);
+    font-family: 'HarlowSolidItalic';
+}
+
+.absnv{
+    opacity: 70%;
+    font-size: 18px;
+}
